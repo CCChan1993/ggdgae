@@ -167,7 +167,7 @@ function gameover(){
     clearInterval(clock);  
     if(isfirst){
         _tempNum=0; //decamincow
-        window.location.href="objc://"+"gameOver:/0"; // by michael
+        // window.location.href="objc://"+"gameOver:/0"; // by michael
         isfirst=false;
         document.getElementById('wend').style.display = "block";
         document.getElementById('main').style.display = "none";	
@@ -252,7 +252,7 @@ function time(){
 	clock = setTimeout('time()',1000);
 }
 $("#whshare").on('touchstart',function () {
-    window.location.href="objc://"+"rateGame"; // by michael
+    // window.location.href="objc://"+"rateGame"; // by michael
 //	$('#fx')[0].style.display = "block";
 });
     $("#fx").on('touchstart',function () {
